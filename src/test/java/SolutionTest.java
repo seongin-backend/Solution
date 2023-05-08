@@ -11,12 +11,11 @@ public class SolutionTest {
     void 세팅() {
         solution = new Solution();
     }
-    /*
     @Test
     @Order(1)
     void 테스트케이스1() {
         assertThat(solution.calculater("RLRRLLRLRL")).isEqualTo(4);
-    }*/
+    }
     @Test
     @Order(2)
     void 테스트케이스2() {
